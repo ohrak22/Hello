@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## TOP TIPS UNITY
 
-You can use the [editor on GitHub](https://github.com/ohrak22/Hello/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. Edit > Preferences에서 Colours > Playmode Tint 컬러를 바꿀수 있다.
+2. 카메라를 선택한 상태에서 Ctrl+Shift+F를 누르면 카메라 위치를 현제 바라보고 있는 위치로 바꿀수 있다.
+3. Project 창에서 검색시 Search 항목을 Asset에서 Asset Store로 바꾸면 Asset Store를 바로 검색할 수 있다.
+4. 오브젝트 이동 또는 회전시 Ctrl을 누르면 스넵이 적용된다.
+5. V 키를 누르고 오브젝트를 이동하면 버텍스 스넵이 가능하다. 레벨 디자인시 끝점을 맞출때 유용하다.
+6. Inspector에서 '?' book 아이콘을 클릭하면 documentation을 볼 수 있다.
+7. Playmode에서 component의 값을 변경하고 그 값을 저장하고 싶다면 "Copy Component" 기능을 이용해 값을 저장하고 playmode에서 나온 후 "Paste Component Value" 기능으로 값을 넣으면 된다.
+8. Inspector 우측 드롭다운 메뉴에서 Debug를 선택하면 private 필드를 확인 할 수 있다.
+9. RangeAttribute
+'''
+[Range(0.1f, 2.0f)]
+	public float pitch = 0.1f;
+'''
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ohrak22/Hello/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
