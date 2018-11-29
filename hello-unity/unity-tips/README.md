@@ -27,3 +27,13 @@ public string objectName;
 public int objectCount;
 public float objectWeight;
 ~~~
+11. HideInInspector
+~~~
+[HideInInspector]
+public int secret = 42;
+~~~
+12. SerializeField
+~~~
+[SerializeField]
+private float health = 100f;
+~~~
