@@ -9,8 +9,21 @@
 7. Playmode에서 component의 값을 변경하고 그 값을 저장하고 싶다면 "Copy Component" 기능을 이용해 값을 저장하고 playmode에서 나온 후 "Paste Component Value" 기능으로 값을 넣으면 된다.
 8. Inspector 우측 드롭다운 메뉴에서 Debug를 선택하면 private 필드를 확인 할 수 있다.
 9. RangeAttribute
-''' C#
+~~~
 [Range(0.1f, 2.0f)]
-	public float pitch = 0.1f;
-'''
+public float pitch = 0.1f;
+~~~
+10. Space & Header Attribute
+~~~
+[Header("Transform")]
+public Vector3 posision;
+public Vector3 rotation;
+public Vector3 scale;
 
+[Space]
+
+[Header("Properties")]
+public string objectName;
+public int objectCount;
+public float objectWeight;
+~~~
